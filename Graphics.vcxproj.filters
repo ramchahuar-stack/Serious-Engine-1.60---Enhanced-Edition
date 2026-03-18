@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Modern Graphics">
+      <UniqueIdentifier>{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern Graphics\Core">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern Graphics\Shaders">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modern Graphics\Examples">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ClInclude Include="Sources\Engine\Graphics\GfxConfig.h">
+      <Filter>Modern Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Engine\Graphics\GfxModern.h">
+      <Filter>Modern Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Engine\Graphics\ModernShader.h">
+      <Filter>Modern Graphics\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ClCompile Include="Sources\Engine\Graphics\GfxModern.cpp">
+      <Filter>Modern Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Engine\Graphics\ModernShader.cpp">
+      <Filter>Modern Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Engine\Graphics\GfxModernTest.cpp">
+      <Filter>Modern Graphics\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Engine\Graphics\ModernRenderingExample.cpp">
+      <Filter>Modern Graphics\Examples</Filter>
+    </ClCompile>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="GRAPHICS_MODERNIZATION.md">
+      <Filter>Modern Graphics</Filter>
+    </None>
+  </ItemGroup>
+</Project>
